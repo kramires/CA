@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int x = 2;
+
+	if (x<2){
+		if (x>=-3) printf("x esta entre [-3;3]\n");
+
+	}
+	else {printf ("x eh maior que 1 \n");}
+}
+
+	
