@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int x, y,resultado;
+
+	printf("escreva x: ");
+	scanf("%d",&x);
+
+	printf("exreva y: ");
+	scanf("%d",&y);
+
+	(x>y)? (resultado=x-y):(resultado=y-x);
+
+	printf("O resultado é %d\n\n",resultado);
+
+	}
