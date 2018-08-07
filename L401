@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int idade;
+
+	printf("digite a idade do nadador:\n");
+	scanf ("%d", &idade);
+	
+	switch (idade)
+	{
+		case 5:
+		case 6:
+		case 7:
+
+		printf ("A categoria eh infantil A\n\n");
+		break;
+
+		case 8:
+		case 9:
+		case 10:
+
+		printf("A categoria eh infantil B\n\n"); 
+		break;
+
+		case 11:
+		case 12:
+		case 13:
+
+		printf("A categoria eh juvenil A\n\n"); 
+		break;
+
+		case 14:
+		case 15:
+		case 16:
+		case 17:
+
+		printf("A categoria eh juvenil B\n\n"); 
+		break;
+
+
+		case 4:
+		case 3:
+		case 2:
+		case 1:
+		case 0:
+		printf ("Nao ha categoria para esta idade!\n\n");
+ 		break;
+
+		default:
+		printf("A categoria eh Adulto\n\n"); 
+		break;
+	}
+}
+
