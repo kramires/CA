@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+
+{
+	int A = 8, B = 5, C = -4, D = 4;
+
+	int Delta = B*B-4*A*C;
+
+	int Media1 = A+B+C+D/4;
+
+	float Media2 = (A+B+C+D)/4;
+
+	int Resultado = A+B-10*C;
+
+	printf(" Delta = %d\n Media1 = %d\n Media2 = %.2f\n Resultado = %d\n\n", Delta, Media1, Media2, Resultado);
+}
