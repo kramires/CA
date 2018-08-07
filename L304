@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+	int numero;
+	printf("escreva o numero:\n");
+	scanf("%d",&numero);
+
+	if (numero%2 == 0) {
+		printf("esse numero é par:\n");
+		}
+	else printf("esse numero é impar:\n");
+
+}
